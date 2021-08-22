@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  .navbar{
+    height: 70px;
+    background-color: white;
+  }
+  .navbar .navbar-brand{
+    font-size: 25px;
+  }
+  .navbar .nav{
+    display: none;
+  }
+  .navbar #search-form{
+    display: none !important;
+  }
+  .navbar .ui-box .ui .search-button{
+    display: block;
+  }
+}

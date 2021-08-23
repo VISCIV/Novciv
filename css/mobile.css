@@ -4,6 +4,8 @@
     background-color: white;
   }
   .navbar .navbar-brand{
+    margin-right: auto;
+    margin-left: auto;
     font-size: 25px;
   }
   .navbar .nav{
@@ -13,6 +15,9 @@
     display: none !important;
   }
   .navbar .ui-box .ui .search-button{
+    display: block;
+  }
+  .open-menu{
     display: block;
   }
 }

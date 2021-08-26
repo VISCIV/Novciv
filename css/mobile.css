@@ -1,23 +1,25 @@
-@media screen and (max-width: 768px) {
-  .navbar{
+@media screen and (max-width: 992px) {
+  .navbar {
     height: 70px;
     background-color: white;
   }
-  .navbar .navbar-brand{
+  .navbar .navbar-brand {
     margin-right: auto;
     margin-left: auto;
     font-size: 30px;
   }
-  .navbar .nav{
+  .navbar .nav {
     display: none;
   }
-  .navbar #search-form{
+  .navbar .ui-box .search-button {
+    display: block !important;
+  }
+  .open-menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar #search-form {
     display: none !important;
-  }
-  .navbar .ui-box .ui .search-button{
-    display: block;
-  }
-  .open-menu{
-    display: block;
   }
 }

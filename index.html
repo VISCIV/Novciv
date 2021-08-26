@@ -32,6 +32,7 @@
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/b26f1c359c.js" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
     <title>NOVCIV - Read Light Novel</title>
@@ -41,17 +42,61 @@
     <header id="header">
       <div class="menu-box">
         <div class="container-fluid">
-          <div class="close-button">
-            <i class="bi bi-x-lg ms-auto"></i>
+          <div class="close-button d-flex">
+            <i class="bi bi-x me-3"></i>
+            <span>tutup</span>
           </div>
           <div class="user-profile d-flex">
             <div class="photo">
-              <img src="https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000" width="1000" height="1000" srcset="https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000 1x, https://onwaleed.sirv.com/8NpjeV-min.jpg?w=2000&h=2000 2x" alt="" />
+              <img
+                src="https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000"
+                width="1000"
+                height="1000"
+                srcset="
+                  https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000 1x,
+                  https://onwaleed.sirv.com/8NpjeV-min.jpg?w=2000&h=2000 2x
+                "
+                alt=""
+              />
             </div>
             <div class="profile">
               <div class="name">Muhamad Faizun Musthofa</div>
               <a href="#">My Account</a>
             </div>
+          </div>
+          <div class="menu">
+            <ul class="mobile-menu">
+              <span>Menu</span>
+              <li class="nav-item d-flex">
+                <i class="bi bi-house-fill"></i>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-fire"></i>
+                <a href="#" class="nav-link">Populer</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-star"></i>
+                <a href="#" class="nav-link">Recomendation</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-box"></i>
+                <a class="nav-link">Genre</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-trophy"></i>
+                <a href="#" class="nav-link">Top</a>
+              </li>
+              <span>More</span>
+              <li class="nav-item d-flex">
+                <i class="fas fa-question-circle"></i>
+                <a href="#" class="nav-link">Help</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-info-circle"></i>
+                <a href="#" class="nav-link">About</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

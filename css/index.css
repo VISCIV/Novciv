@@ -314,68 +314,73 @@ body {
   color: white;
   text-decoration: none;
 }
-.main-area .post-slider{
+.main-area .post-slider {
   width: 100%;
   height: auto;
   margin-bottom: 35px;
 }
-.main-area .content-box{
+.main-area .content-box {
   width: 100%;
   height: auto;
   margin-top: 25px;
 }
-.main-area .content-box .header{
+.main-area .content-box .header {
   width: 100%;
   height: auto;
 }
-.main-area .content-box .header .title-content{
+.main-area .content-box .header .title-content {
   font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
-.main-area .content-box .content-list{
+.main-area .content-box .content-list {
   width: 100%;
   height: auto;
   padding-bottom: 25px;
   overflow: scroll;
   overflow-y: hidden;
 }
-.main-area .content-box .content-list .content{
+.main-area .content-box .content-list .content {
   width: 300px;
   min-width: 300px;
   height: auto;
   margin-right: 15px;
 }
-.main-area .content-box .content-list .content .thumbnail{
+.main-area .content-box .content-list .content .thumbnail {
   width: 300px;
   height: auto;
   overflow: hidden;
   border-radius: 5px;
 }
-.main-area .content-box .content-list .content .thumbnail img{
+.main-area .content-box .content-list .content .thumbnail img {
   width: 300px;
   height: auto;
 }
-.main-area .content-box .content-list .content .thumbnail .volume{
+.main-area .content-box .content-list .content .thumbnail .volume {
   position: absolute;
   bottom: 10px;
   right: 15px;
   color: white;
   font-family: 'mulish', sans-serif;
 }
-.main-area .content-box .content-list .content .content-description{
+.main-area .content-box .content-list .content .content-description {
   width: 100%;
   height: 50px;
 }
-.main-area .content-box .content-list .content .content-description .content-title{
+.main-area
+  .content-box
+  .content-list
+  .content
+  .content-description
+  .content-title {
   font-family: 'rubik', sans-serif;
   font-size: 19px;
 }
-.main-area .content-box .content-list .content .content-description .updated{
+.main-area .content-box .content-list .content .content-description .updated {
   color: gray;
   font-size: 13px;
 }
-#footer{
+#footer {
   width: 100%;
   height: auto;
   min-height: 200px;
@@ -385,40 +390,40 @@ body {
   background-color: #222831;
   color: white;
 }
-#footer .box{
+#footer .box {
   width: 100%;
   height: auto;
   min-height: 150px;
 }
-#footer .logo-box{
+#footer .logo-box {
   text-align: center;
 }
-#footer .logo-box .logo{
+#footer .logo-box .logo {
   color: white;
   font-family: 'Urban Jungle';
   font-size: 50px;
 }
-#footer .box h5{
+#footer .box h5 {
   font-size: 22px;
   color: gray;
 }
-#footer .box ul{
+#footer .box ul {
   padding: 0px;
   padding-left: 5px;
 }
-#footer .box ul li{
+#footer .box ul li {
   display: block;
 }
-#footer .box ul li a{
+#footer .box ul li a {
   text-decoration: none;
   color: white;
   font-size: 15px;
   font-family: 'mulish', sans-serif;
 }
-#footer .box ul li a:hover{
+#footer .box ul li a:hover {
   color: gray;
 }
-#footer .copyright{
+#footer .copyright {
   width: 100%;
   height: auto;
   color: gray;

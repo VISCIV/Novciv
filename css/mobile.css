@@ -17,9 +17,44 @@
   .open-menu {
     display: block;
   }
+  #footer{
+    display: none;
+  }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .navbar #search-form {
     display: none !important;
+  }
+  .slide .content .post-content .post-thumbnail{
+    display: none;
+  }
+  .slide .content .post-content .post-description{
+    height: 200px;
+  }
+  .slide .content .post-content .post-description .post-title{
+    font-size: 20px;
+  }
+  .slide .content .post-content .post-description .read-button{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 0px;
+  }
+  .slide .content .post-content .post-description .read-button .read{
+    font-size: 13px;
+  }
+  .slide .content .post-content .post-description .post-excerpt{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .slide .content .post-content .post-description .last-update{
+    font-size: 10px;
+  }
+  #next, #prev, .dots{
+    display: none !important;
+  }
+  .slider-content{
+    height: 200px !important;
   }
 }

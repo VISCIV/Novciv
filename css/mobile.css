@@ -51,8 +51,8 @@
   .slide .content .post-content .post-description .last-update{
     font-size: 10px;
   }
-  #next, #prev, .dots{
-    display: none !important;
+  #next i, #prev i{
+    font-size: 20px;
   }
   .slider-content{
     height: 200px !important;

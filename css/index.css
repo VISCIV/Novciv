@@ -169,6 +169,26 @@ body {
   width: 100%;
   height: auto;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .main-area {
   width: 100%;
   max-width: 100%;
@@ -302,24 +322,106 @@ body {
 .main-area .content-box{
   width: 100%;
   height: auto;
+  margin-top: 25px;
+}
+.main-area .content-box .header{
+  width: 100%;
+  height: auto;
 }
 .main-area .content-box .header .title-content{
-  font-family: 'mulish', sans-serif;
-  font-weight: 900;
+  font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 30px;
 }
 .main-area .content-box .content-list{
   width: 100%;
   height: auto;
+  padding-bottom: 25px;
   overflow: scroll;
   overflow-y: hidden;
-  margin-top: 15px;
 }
 .main-area .content-box .content-list .content{
   width: 300px;
   min-width: 300px;
-  height: 400px;
+  height: auto;
   margin-right: 15px;
-  background-color: white;
+}
+.main-area .content-box .content-list .content .thumbnail{
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.main-area .content-box .content-list .content .thumbnail img{
+  width: 300px;
+  height: auto;
+}
+.main-area .content-box .content-list .content .thumbnail .volume{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: white;
+  font-family: 'mulish', sans-serif;
+}
+.main-area .content-box .content-list .content .content-description{
+  width: 100%;
+  height: 50px;
+}
+.main-area .content-box .content-list .content .content-description .content-title{
+  font-family: 'rubik', sans-serif;
+  font-size: 19px;
+}
+.main-area .content-box .content-list .content .content-description .updated{
+  color: gray;
+  font-size: 13px;
+}
+#footer{
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background-color: #222831;
+  color: white;
+}
+#footer .box{
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+}
+#footer .logo-box{
+  text-align: center;
+}
+#footer .logo-box .logo{
+  color: white;
+  font-family: 'Urban Jungle';
+  font-size: 50px;
+}
+#footer .box h5{
+  font-size: 22px;
+  color: gray;
+}
+#footer .box ul{
+  padding: 0px;
+  padding-left: 5px;
+}
+#footer .box ul li{
+  display: block;
+}
+#footer .box ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: 'mulish', sans-serif;
+}
+#footer .box ul li a:hover{
+  color: gray;
+}
+#footer .copyright{
+  width: 100%;
+  height: auto;
+  color: gray;
+  font-size: 14px;
+  text-align: center;
 }

@@ -17,9 +17,6 @@
   .open-menu {
     display: block;
   }
-  #footer{
-    display: none;
-  }
 }
 @media screen and (max-width: 768px) {
   .navbar #search-form {
@@ -32,7 +29,7 @@
     height: 200px;
   }
   .slide .content .post-content .post-description .post-title{
-    font-size: 20px;
+    font-size: 23px;
   }
   .slide .content .post-content .post-description .read-button{
     width: 80px;
@@ -51,10 +48,41 @@
   .slide .content .post-content .post-description .last-update{
     font-size: 10px;
   }
+  .main-area .content-box .header .title-content{
+    font-size: 18px;
+  }
+  .main-area .content-box .content-list .content{
+    width: 150px !important;
+    min-width: 150px !important;
+  }
+  .main-area .content-box .content-list .content .thumbnail{
+    width: 150px !important;
+  }
+  .main-area .content-box .content-list .content .thumbnail img{
+    width: 150px !important;
+  }
+  .main-area .content-box .content-list .content .content-description .content-title{
+    font-size: 14px;
+  }
+  .main-area .content-box .content-list .content .thumbnail .volume{
+    font-size: 12px;
+  }
+  .main-area .content-box .content-list .content .content-description .updated{
+    font-size: 11px;
+  }
   #next i, #prev i{
     font-size: 20px;
   }
   .slider-content{
     height: 200px !important;
+  }
+  #footer .logo-box{
+    display: none;
+  }
+  #footer .box h5{
+    font-size: 16px;
+  }
+  #footer .box ul li a{
+    font-size: 12px;
   }
 }

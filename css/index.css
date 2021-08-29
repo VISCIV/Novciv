@@ -239,18 +239,18 @@ body {
 .post-slider #prev {
   font-size: 30px;
   left: 30px !important;
-  color: white;
+  color: gray;
   transition: all 0.15s ease-in-out;
 }
 .post-slider #next {
   font-size: 30px;
   right: -100px !important;
-  color: white;
+  color: gray;
   transition: all 0.15s ease-in-out;
 }
 .post-slider #next:hover,
 #prev:hover {
-  color: gray;
+  color: white;
 }
 .slide .content {
   width: 100%;

@@ -49,7 +49,7 @@
     font-size: 10px;
   }
   .main-area .content-box .header .title-content {
-    font-size: 18px;
+    font-size: 20px;
   }
   .main-area .content-box .content-list .content {
     width: 150px !important;
@@ -75,10 +75,10 @@
   .main-area .content-box .content-list .content .content-description .updated {
     font-size: 11px;
   }
-  .post-slider #next{
+  .post-slider #next {
     right: 0px !important;
   }
-  .dots{
+  .dots {
     right: 0px !important;
   }
   #next i,

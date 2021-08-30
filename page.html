@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Mulish&family=Noto+Sans+JP&family=Open+Sans&family=Poppins&family=Roboto&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/afi1iur.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/page.css" />
+    <link rel="stylesheet" href="css/mobile-page.css" />
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b26f1c359c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+
+    <title>Tensei Shirata Slime Datta-Ken - NOVCIVtitle>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="menu-box">
+        <div class="container-fluid">
+          <div class="close-button d-flex">
+            <i class="bi bi-x me-3"></i>
+            <span>tutup</span>
+          </div>
+          <div class="user-profile d-flex">
+            <div class="photo">
+              <img
+                src="https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000"
+                width="1000"
+                height="1000"
+                srcset="
+                  https://onwaleed.sirv.com/8NpjeV-min.jpg?w=1000&h=1000 1x,
+                  https://onwaleed.sirv.com/8NpjeV-min.jpg?w=2000&h=2000 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="profile">
+              <div class="name">Muhamad Faizun Musthofa</div>
+              <a href="#">My Account</a>
+            </div>
+          </div>
+          <div class="menu">
+            <ul class="mobile-menu">
+              <span>Menu</span>
+              <li class="nav-item d-flex">
+                <i class="bi bi-house-fill"></i>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-fire"></i>
+                <a href="#" class="nav-link">Populer</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-star"></i>
+                <a href="#" class="nav-link">Recomendation</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-box"></i>
+                <a class="nav-link">Genre</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-trophy"></i>
+                <a href="#" class="nav-link">Top</a>
+              </li>
+              <span>More</span>
+              <li class="nav-item d-flex">
+                <i class="fas fa-question-circle"></i>
+                <a href="#" class="nav-link">Help</a>
+              </li>
+              <li class="nav-item d-flex">
+                <i class="fas fa-info-circle"></i>
+                <a href="#" class="nav-link">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <div class="open-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <a class="navbar-brand" href="#">NOVCIV</a>
+          <ul class="nav justify-content-start me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Populer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recomendation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Genre</a>
+              <ul class="dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Romance</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Comedy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Echi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search-form">
+            <label for="search" id="search-label" class="position-relative">
+              <i
+                class="
+                  bi bi-search
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
+              ></i>
+            </label>
+            <input
+              class="form-control me-2"
+              type="search"
+              id="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <div class="ui-box d-flex">
+            <div class="ui position-relative me-1 search-button">
+              <i
+                class="
+                  bi bi-search
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
+              ></i>
+            </div>
+            <div class="ui position-relative me-1">
+              <i
+                class="
+                  bi bi-bell
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
+              ></i>
+            </div>
+            <div class="ui position-relative">
+              <i
+                class="
+                  bi bi-person
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
+              ></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <footer id="footer">
+      <div class="container d-flex">
+        <div class="box logo-box">
+          <div class="logo">NOVCIV</div>
+          <p>Read Light Novel</p>
+        </div>
+        <div class="box about">
+          <h5>About Us</h5>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="#">Terms and Conditions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h5>Contact Us</h5>
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fas fa-envelope"></i> Email :
+                visciv.official@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">Copyright © 2021 VISCIV. All Rights Reserved</div>
+    </footer>
+  </body>
+</html>

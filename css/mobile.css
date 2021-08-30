@@ -75,8 +75,11 @@
   .main-area .content-box .content-list .content .content-description .updated {
     font-size: 11px;
   }
-  .dots {
-    right: 0px;
+  .post-slider #next{
+    right: 0px !important;
+  }
+  .dots{
+    right: 0px !important;
   }
   #next i,
   #prev i {

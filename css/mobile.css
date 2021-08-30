@@ -22,67 +22,79 @@
   .navbar #search-form {
     display: none !important;
   }
-  .slide .content .post-content .post-thumbnail{
+  .slide .content .post-content .post-thumbnail {
     display: none;
   }
-  .slide .content .post-content .post-description{
+  .slide .content .post-content .post-description {
     height: 200px;
   }
-  .slide .content .post-content .post-description .post-title{
+  .slide .content .post-content .post-description .post-title {
     font-size: 23px;
   }
-  .slide .content .post-content .post-description .read-button{
+  .slide .content .post-content .post-description .read-button {
     width: 80px;
     height: 30px;
     margin-bottom: 0px;
   }
-  .slide .content .post-content .post-description .read-button .read{
+  .slide .content .post-content .post-description .read-button .read {
     font-size: 13px;
   }
-  .slide .content .post-content .post-description .post-excerpt{
+  .slide .content .post-content .post-description .post-excerpt {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 12px;
   }
-  .slide .content .post-content .post-description .last-update{
+  .slide .content .post-content .post-description .last-update {
     font-size: 10px;
   }
-  .main-area .content-box .header .title-content{
+  .main-area .content-box .header .title-content {
     font-size: 18px;
   }
-  .main-area .content-box .content-list .content{
+  .main-area .content-box .content-list .content {
     width: 150px !important;
     min-width: 150px !important;
   }
-  .main-area .content-box .content-list .content .thumbnail{
+  .main-area .content-box .content-list .content .thumbnail {
     width: 150px !important;
   }
-  .main-area .content-box .content-list .content .thumbnail img{
+  .main-area .content-box .content-list .content .thumbnail img {
     width: 150px !important;
   }
-  .main-area .content-box .content-list .content .content-description .content-title{
+  .main-area
+    .content-box
+    .content-list
+    .content
+    .content-description
+    .content-title {
     font-size: 14px;
   }
-  .main-area .content-box .content-list .content .thumbnail .volume{
+  .main-area .content-box .content-list .content .thumbnail .volume {
     font-size: 12px;
   }
-  .main-area .content-box .content-list .content .content-description .updated{
+  .main-area .content-box .content-list .content .content-description .updated {
     font-size: 11px;
   }
-  #next i, #prev i{
+  .dots {
+    right: 0px;
+  }
+  #next i,
+  #prev i {
     font-size: 20px;
   }
-  .slider-content{
+  #next {
+    right: 0px;
+  }
+  .slider-content {
     height: 200px !important;
   }
-  #footer .logo-box{
+  #footer .logo-box {
     display: none;
   }
-  #footer .box h5{
+  #footer .box h5 {
     font-size: 16px;
   }
-  #footer .box ul li a{
+  #footer .box ul li a {
     font-size: 12px;
   }
 }
